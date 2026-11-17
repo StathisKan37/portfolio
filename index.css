@@ -12,7 +12,7 @@
 }
 
 body{
-	background-color: var(--Deep_twilight);}
+	background-color: var(--Prussian_blue);}
 
 h1{
 	font-size: 60px;}
@@ -25,7 +25,7 @@ h2{
 .hero{
 	margin: 50px;
 	padding: 50px;
-	background-color: var(--Prussian_blue);
+	background-color: var(--Deep_twilight);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;}
@@ -63,14 +63,13 @@ h2{
 .armyContainer{
 	margin: 50px;
 	padding: 50px;
-	background-color: var(--Prussian_blue);
 	display: flex;
 	justify-content: space-between;}
 .armyList{
 	margin: auto;
 	padding: 10px;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	color: var(--Ice_blue);}
 .armyImage{
 	width: 420px;
@@ -87,8 +86,6 @@ h2{
 	.armyContainer{
 		flex-direction: column;
 		align-items: center;}
-	.armyList{
-		font-size: 30px;}
 }
 
 @media screen and (max-width: 800px) {
@@ -107,11 +104,11 @@ h2{
 		margin: 10px;
 		width: 50px;}
 	.personality{
-		margin: 20px 50px;
-		font-size: 15px;}
+		margin: 20px 15px;
+		font-size: 20px;}
 	.armyContainer{
 		margin: 15px;
 		padding: 15px;}
 	.armyList{
-		font-size: 25px;}
+		font-size: 20px;}
 }
