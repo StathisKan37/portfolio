@@ -17,7 +17,8 @@ body{
 h1{
 	font-size: 60px;}
 h2{
-	font-size: 30px;}
+	font-size: 30px;
+	text-align: center;}
 
 /*----------------*/
 /*----  HERO  ----*/
@@ -85,10 +86,17 @@ h2{
 	background-color: var(--Deep_twilight);
 	font-family: Arial, Helvetica, sans-serif;
 	color: var(--Ice_blue);}
-.programmingLanguages{
+.programmingLanguage{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;}
+	justify-content: start;}
+.programmingIcon{
+	margin: 40px 75px;
+	width: 130px;}
+.programmingList{
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 30px;}
 
 @media screen and (max-width: 1300px) {
 	
@@ -115,7 +123,7 @@ h2{
 		font-size: 25px;}
 	.linkIcons{
 		margin: 10px;
-		width: 45px;}
+		width: 50px;}
 	.personality{
 		margin: 20px 15px;
 		font-size: 20px;}
@@ -127,4 +135,15 @@ h2{
 	.armyImage{
 		width: 95%;
 		height: 95%;}
+	.programmingContainer{
+		margin: 15px;
+		padding: 15px;}
+	.programmingLanguage{
+		flex-direction: column;}
+	.programmingIcon{
+		margin-left: auto;
+		margin-right: auto;}
+	.programmingList{
+		text-align: center;
+		font-size: 20px;}
 }
