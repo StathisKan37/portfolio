@@ -15,10 +15,10 @@ body{
 	background-color: var(--Prussian_blue);}
 
 h1{
-	font-size: 60px;}
-h2{
-	font-size: 30px;
+	font-size: 60px;
 	text-align: center;}
+h2{
+	font-size: 30px;}
 
 /*----------------*/
 /*----  HERO  ----*/
